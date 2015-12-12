@@ -1,0 +1,13 @@
+{
+    "abc-*": {"group": "red", "mode": ["read", "write"]},
+    "hello": {"group": "blue", "mode": ["read"]}
+}
+
+no more route files
+
+/:group/:key that s all :D
+
+what s about transaction??
+
+what s about increment... push??
+

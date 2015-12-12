@@ -1,0 +1,21 @@
+{
+    "auth": {
+        "password": "82c128e1559df35bac17618074022b6f8ec3429d97adcf9d7180d93e93fde583",
+        "salt": "yoyoyo"
+    },
+    "groups": {
+        "admin": ["read", "write"],
+        "white": ["read", "write"],
+        "black": ["read", "write"],
+        "blue": ["read", "write"],
+        "red": ["read", "write"],
+        "yellow": ["read", "write"],
+        "brown": ["read", "write"],
+        "pink": ["read", "write"],
+        "purple": ["read", "write"],
+        "orange": ["read", "write"],
+        "green": ["read", "write"],
+        "violet": ["read", "write"]
+    },
+    "hello": "world"
+}
