@@ -13,8 +13,8 @@ auth.get('/', function(req, res) {
 
 auth.get('/me', function(req, res) {
     memspace.memspace.setName(req.query.memspace);
-    var auth = memspace.user.loadBySession(req.query.sessionId);
-    res.send(JSON.stringify(auth));
+    var user = memspace.user.loadBySession(req.query.sessionId);
+    res.send(JSON.stringify(user));
 });
 
 auth.get('/logout', function(req, res) {

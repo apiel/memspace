@@ -1,13 +1,5 @@
 {
-    "abc-*": {"group": "red", "mode": ["read", "write"]},
-    "hello": {"group": "blue", "mode": ["read"]}
+    "abc": {"group": "red", "modes": ["read", "write"]},
+    "hello": {"group": "blue", "modes": ["read"]},
+    "list": {"group": "blue", "modes": ["read"], "type": "serial"}
 }
-
-no more route files
-
-/:group/:key that s all :D
-
-what s about transaction??
-
-what s about increment... push??
-
