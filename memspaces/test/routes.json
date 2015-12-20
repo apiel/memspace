@@ -1,5 +1,5 @@
 {
-    "abc": {"group": "red", "modes": ["read", "write"]},
+    "abc.json": {"group": "red", "modes": ["read", "write"]},
     "hello": {"group": "blue", "modes": ["read"]},
     "list": {"group": "blue", "modes": ["read"], "type": "serial"}
 }
